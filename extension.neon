@@ -1,0 +1,6 @@
+services:
+	-
+		class: PHPStan\GraphQL\Type\ResolveInfoReturnTypeExtension
+		tags:
+			- phpstan.broker.dynamicMethodReturnTypeExtension
+
