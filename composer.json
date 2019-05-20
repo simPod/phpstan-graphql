@@ -4,6 +4,14 @@
 	"license": "MIT",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
+	"type": "phpstan-extension",
+	"extra": {
+		"phpstan": {
+			"includes": [
+				"extension.neon"
+			]
+		}
+	},
 	"require": {
 		"php": "~7.1",
 		"phpstan/phpstan": "^0.10|^0.11",
